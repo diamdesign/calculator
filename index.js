@@ -1,6 +1,14 @@
 var num1, func, num2;
 var sum = 0;
 
+var fullName = prompt("Write your full name");
+console.log("Full name:", fullName);
+var userYear = prompt("Write your year of birth [YYYY]");
+var currentYear = new Date().getFullYear();
+var sumYear = currentYear - userYear;
+alert("Hello " + fullName + ". You are " + sumYear + " years old this year");
+console.log("User is", sumYear, "years old this year");
+
 function calculation() {
 	sum = 0;
 	num1 = prompt(
