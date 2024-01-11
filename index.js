@@ -12,7 +12,8 @@ console.log("User is", sumYear, "years old this year");
 function calculation() {
 	sum = 0;
 	num1 = prompt(
-		"Write the first number or your full calculation like a+b (+,-,*,/)"
+		fullName +
+			", write the first number or your full calculation like a+b (+,-,*,/)"
 	);
 
 	if (num1.indexOf("+") >= 0) {
